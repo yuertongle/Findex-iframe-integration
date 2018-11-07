@@ -1,4 +1,4 @@
-## Test if findex is suitable for your project:
+## Test whether findex is suitable for your project or not:
 
 1. Create an iframe DOM in your local project, put the src='https://iframe.findex.pro'.
 2. Add the code below in your project, replace 'example11111' with your eosAccount. please ensure it is executed after the iframe has loaded.
@@ -17,7 +17,7 @@
        '*'
    )
    ```
-3. Run your project, if you can see your balance in the trading pannel, congratulation, let's start the integration.
+3. Run your project, if you can see your balance in the trading pannel, congratulation, let's start the integration. If not, no worries, contact findex team to inspect.
 
 ## Integration findex in your project:
 
