@@ -104,3 +104,7 @@
      ```
      
  5. Check if findex can login/logout in your project, also set buy/sell/cancel orders. If everything is OK, You are going to succeed. Now contact Findex team to customize 'your findex'.
+
+
+## Reference:
+Here is a nice [example](https://gist.github.com/jafri/b52dd82aad68cd54657510718969269b)(vue project) from EOS Cafe.
