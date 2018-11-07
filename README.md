@@ -107,4 +107,4 @@
 
 
 ## Reference:
-Here is a nice [example](https://gist.github.com/jafri/b52dd82aad68cd54657510718969269b)(vue project) from EOS Cafe.
+Here is a [example](https://gist.github.com/jafri/b52dd82aad68cd54657510718969269b) (vue project) from EOS Cafe.
