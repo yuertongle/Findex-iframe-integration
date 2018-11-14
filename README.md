@@ -1,3 +1,40 @@
+##Findex integration
+
+There are three ways to integrate your project with findex:
+1. If you have a wallet APP, you can add a link to findex, open findex with webview in your wallet.
+2. If you have a website, you can create an iframe in your page, to use findex in your project.
+3. If you want to develop you UI by yourself, we have prepared the js docs for you to use findex.
+
+## **Webview-connect-findex**
+
+1.You may use directly or strengthen the Component in example/demo-webview.js:<br>
+
+2.Give your wallet name, eos_account logged in the wallet and language as parameters in the url.
+```javascript
+return <WebView onMessage={this.onWebViewMessage}
+                ref={webview => {
+                  this.myWebView = webview;
+                }}
+                source={{uri: 'https://example.findex.one?inWallet=tokenPocket&eos_account=examplename1&lang=zh-CN'}}/>
+```  
+*  If no account has logged in, eos_account should be discarded;
+*  English would be the default language if no parameter - lang is given.
+
+3.For better user experience, we strongly suggested that showing transaction data to let user double confirm.
+```javascript
+switch (msgData.targetFunc) {          
+  case 'transaction':
+    //Show transaction detail to users.
+    this[msgData.targetFunc].apply(this, [msgData]);
+    break;
+}
+```
+
+_Important：We are still working on Findex and these doc, please contact with us with no hesitation when facing any problem._
+
+
+
+
 ## Test whether findex is suitable for your project or not:
 
 1. Create an iframe DOM in your local project, put the src='https://iframe.findex.pro'.
@@ -108,3 +145,7 @@
 
 ## Reference:
 Here is a [example](https://gist.github.com/jafri/b52dd82aad68cd54657510718969269b) (vue project) from EOS Cafe.
+
+
+## Develop your own DEX:
+Use the api give in findex-api.js, develop your UI.
