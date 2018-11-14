@@ -26,4 +26,7 @@
   {"pairDisplayName":"EGT/EOS","pairID":25},
   {"pairDisplayName":"BT/EOS","pairID":26},
   {"pairDisplayName":"MEV/EOS","pairID":27}
+  {"pairDisplayName": "FOS/EOS", "pairID": 28}
+  {"pairDisplayName": "PTI/EOS", "pairID": 29}
+  {"pairDisplayName": "KARMA/DICE", "pairID": 30}
 ]
