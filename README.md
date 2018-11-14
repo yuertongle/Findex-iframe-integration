@@ -1,4 +1,4 @@
-##Findex integration
+## Findex integration
 
 There are three ways to integrate your project with findex:
 1. If you have a wallet APP, you can add a link to findex, open findex with webview in your wallet.
